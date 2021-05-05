@@ -26,4 +26,8 @@ public class LoginActivity extends AppCompatActivity {
         Intent goToNextActivity = new Intent(getApplicationContext(), RegisterActivity.class);
         startActivity(goToNextActivity);
     }
+    public void Login(View view) {
+        Intent goToNextActivity = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(goToNextActivity);
+    }
 }
